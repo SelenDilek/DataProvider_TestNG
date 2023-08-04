@@ -73,13 +73,14 @@ public class DataProviderTestNG {
     }
 
 
-   /* @AfterTest
+    @AfterTest
     public void tearDown(){
+        System.out.println("Windows or tabs are closing..");
 
         driver.close();
         driver.quit();
     }
-*/
+
 
 
 }
