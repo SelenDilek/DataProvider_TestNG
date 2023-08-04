@@ -1,0 +1,27 @@
+<suite name = "Data Provider Test"  parallel = "tests" therad-count="2">
+    <tests>
+        <test name = "Data Provider Test with CHROME ">
+            <parameter name="browser" value="chrome">
+                <classes>
+
+                    <class name = "TestNGProject.DataProviderTestNG"/>
+
+
+                </classes>
+
+            </parameter>
+
+        </test>
+
+    </tests>
+
+    <test name ="Data Provider Test with FIREFOX">
+        <parameter name ="browser" value="firefox">
+            <classes>
+                <class name="TestNGProject.DataProviderTestNG"/>
+
+            </classes>
+        </parameter>
+    </test>
+
+</suite>
